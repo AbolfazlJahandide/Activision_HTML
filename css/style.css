@@ -26,7 +26,7 @@ body {
 }
 
 
-@media(min-width:768px) {
+@media only screen and (min-width : 768px) {
 
 
     a {
@@ -138,7 +138,7 @@ body {
         flex-direction: column;
         text-align: left;
         left: 80px;
-        top: 150px;
+        bottom: 150px;
     }
 
     .carousel-caption p {
@@ -911,7 +911,7 @@ body {
     .cards:hover .line {
         border-color: #0768af;
     }
-    
+
 }
 
 
@@ -922,7 +922,7 @@ body {
 
 
 
-@media(max-width:768px) {
+@media only screen and (max-width : 768px) {
 
     body {
         background-color: black;
@@ -1050,11 +1050,11 @@ body {
         display: flex;
         flex-direction: column;
         text-align: center;
-        top: 150px;
         align-items: center;
         justify-content: center;
         position: absolute;
         left: 0;
+        bottom: 80px;
     }
 
     .carousel-caption img {
@@ -1084,7 +1084,7 @@ body {
         text-decoration: none;
         font-weight: bolder;
         border: 2px solid white;
-        padding: 18px 65px;
+        padding: 18px 45px;
         border-radius: 30px;
         transition: 300ms;
     }
@@ -1097,7 +1097,11 @@ body {
     .color {
         background-color: rgba(7, 104, 175, 0.5);
         border: 2px solid #0768af !important;
-        padding: 18px 40px !important;
+        padding: 18px 20px !important;
+    }
+
+    .LA{
+        bottom: 180px;
     }
 
     .background-image2 {
